@@ -1,4 +1,4 @@
-# BlendMask
+# Flutter Blend Mask
 
 A Flutter widget that applies BlendMode effects to its child widgets with proper layer compositing.
 
