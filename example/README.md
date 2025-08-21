@@ -1,6 +1,6 @@
 # BlendMask Example
 
-This example demonstrates how to use the `blend_mask` package in a Flutter application.
+This example demonstrates how to use the `flutter_blend_mask` package in a Flutter application.
 
 ## Getting Started
 

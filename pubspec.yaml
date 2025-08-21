@@ -1,9 +1,9 @@
-name: blend_mask
+name: flutter_blend_mask
 description: A Flutter widget that applies BlendMode effects to its child widgets with proper layer compositing.
-version: 1.0.0
-homepage: https://github.com/CanArslanDev/blend_mask
-repository: https://github.com/CanArslanDev/blend_mask
-issue_tracker: https://github.com/CanArslanDev/blend_mask/issues
+version: 1.0.0+1
+homepage: https://github.com/CanArslanDev/flutter_blend_mask
+repository: https://github.com/CanArslanDev/flutter_blend_mask
+issue_tracker: https://github.com/CanArslanDev/flutter_blend_mask/issues
 
 environment:
   sdk: ^3.0.0

@@ -2,7 +2,7 @@
 
 A Flutter widget that applies BlendMode effects to its child widgets with proper layer compositing.
 
-[![pub package](https://img.shields.io/pub/v/blend_mask.svg)](https://pub.dev/packages/blend_mask)
+[![pub package](https://img.shields.io/pub/v/flutter_blend_mask.svg)](https://pub.dev/packages/blend_mask)
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
 ## Problem
@@ -24,11 +24,11 @@ When using `BlendMode` in Flutter, especially within complex widget hierarchies 
 
 ## Getting started
 
-Add `blend_mask` to your `pubspec.yaml`:
+Add `flutter_blend_mask` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  blend_mask: ^1.0.0
+  flutter_blend_mask: ^1.0.0
 ```
 
 Then run:
@@ -41,7 +41,7 @@ flutter pub get
 ### Basic Usage
 
 ```dart
-import 'package:blend_mask/blend_mask.dart';
+import 'package:flutter_blend_mask/flutter_blend_mask.dart';
 import 'package:flutter/material.dart';
 
 BlendMask(
@@ -111,7 +111,8 @@ All Flutter `BlendMode` values are supported:
 | `key` | `Key?` | Widget key | No | `null` |
 
 ## References
-	•	[How to use BlendMode in Stack correctly – StackOverflow](https://stackoverflow.com/a/64737622/21099631)
+
+- [How to use BlendMode in Stack correctly – StackOverflow](https://stackoverflow.com/a/64737622/21099631)
 
 
 ## Contributing

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-import '../rendering/render_blend_mask.dart';
+import '../rendering/render_flutter_blend_mask.dart';
 
 /// A widget that applies a [BlendMode] to its child with proper layer
 /// compositing.

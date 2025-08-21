@@ -1,4 +1,4 @@
-import 'package:blend_mask/blend_mask.dart';
+import 'package:flutter_blend_mask/flutter_blend_mask.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -69,14 +69,14 @@ class _BlendMaskExamplePageState extends State<BlendMaskExamplePage> {
               style: TextStyle(fontSize: 16),
             ),
             const SizedBox(height: 32),
-            
+
             // Controls
             const Text(
               'Controls:',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
             const SizedBox(height: 16),
-            
+
             // Blend Mode Selector
             const Text('Blend Mode:'),
             DropdownButton<BlendMode>(
@@ -98,9 +98,9 @@ class _BlendMaskExamplePageState extends State<BlendMaskExamplePage> {
                 },
               ).toList(),
             ),
-            
+
             const SizedBox(height: 16),
-            
+
             // Opacity Slider
             Text('Opacity: ${_opacity.toStringAsFixed(2)}'),
             Slider(
@@ -114,16 +114,16 @@ class _BlendMaskExamplePageState extends State<BlendMaskExamplePage> {
                 });
               },
             ),
-            
+
             const SizedBox(height: 32),
-            
+
             // Demo Section
             const Text(
               'Demo:',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
             const SizedBox(height: 16),
-            
+
             // Example 1: Basic Usage
             _buildExample(
               title: 'Basic BlendMask Usage',
@@ -166,9 +166,9 @@ class _BlendMaskExamplePageState extends State<BlendMaskExamplePage> {
                 ),
               ),
             ),
-            
+
             const SizedBox(height: 24),
-            
+
             // Example 2: Multiple BlendMasks
             _buildExample(
               title: 'Multiple BlendMasks',

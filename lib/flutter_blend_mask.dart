@@ -1,7 +1,5 @@
 /// A Flutter widget that applies BlendMode effects to its child widgets
 /// with proper layer compositing.
-library blend_mask;
+library flutter_blend_mask;
 
-export 'src/widgets/blend_mask.dart';
-
-
+export 'src/widgets/flutter_blend_mask.dart';
