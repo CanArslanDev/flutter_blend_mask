@@ -5,6 +5,9 @@ A Flutter widget that applies BlendMode effects to its child widgets with proper
 [![pub package](https://img.shields.io/pub/v/blend_mask.svg)](https://pub.dev/packages/blend_mask)
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
+<img width="220" alt="simulator_screenshot_C2B790B8-9DB3-4BE4-9112-D3C47878C24D" src="https://github.com/user-attachments/assets/8b252c5c-bc31-42d3-b7db-8717640400e4" />
+
+
 ## Problem
 
 When using `BlendMode` in Flutter, especially within complex widget hierarchies like `Stack`, the blend mode effects often don't work as expected. This is because Flutter requires proper layer compositing for blend modes to function correctly.
